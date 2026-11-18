@@ -1,0 +1,17 @@
+ESTUDAAI — APP PARA ANDROID
+
+O que foi preparado:
+- Aplicativo web instalável (PWA), com ícone e modo de tela cheia.
+- Salvamento de perfil, tarefas, biblioteca, flashcards e progresso no próprio aparelho.
+- Cache para abrir a interface mesmo sem internet depois da primeira visita.
+
+Como instalar no Android:
+1. Publique o conteúdo desta pasta em uma hospedagem HTTPS (por exemplo, GitHub Pages).
+2. Abra o endereço publicado no Chrome do celular.
+3. Toque no menu ⋮ e escolha "Instalar app" ou "Adicionar à tela inicial".
+
+Importante sobre a IA:
+O HTML original tentava chamar um serviço de IA diretamente do navegador e dependia de APIs que não existem em uma página comum. Isso não é seguro nem confiável. A versão preparada substitui essas chamadas por um aviso: chat, pesquisa, geração de resumos, quizzes, flashcards automáticos e correção automática precisam de um backend seguro com a chave da IA guardada no servidor.
+As ferramentas locais, perfil, agenda, calculadora, Pomodoro, biblioteca e progresso permanecem disponíveis.
+
+Os dados ficam no armazenamento local do navegador deste aparelho. Limpar os dados do navegador pode apagá-los.
